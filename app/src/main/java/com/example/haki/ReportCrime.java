@@ -21,7 +21,7 @@ public class ReportCrime extends AppCompatActivity implements View.OnClickListen
         setContentView(R.layout.activity_report_crime);
         ButterKnife.bind(this);
 
-        mButton.setOnClickListener(this)
+        mButton.setOnClickListener(this);
         //Intent intent = getIntent();
         //String hello = intent.getStringExtra("hello");
         //mTextview.setText(hello);
