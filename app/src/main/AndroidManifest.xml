@@ -9,11 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Incidences"></activity>
+        <activity android:name=".Incidences">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.haki.IncidenceReceived">
+
+            </meta-data>
+        </activity>
         <activity android:name=".IncidenceReceived">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.haki.ReportCrime"></meta-data>
+                android:value="com.example.haki.ReportCrime">
+
+            </meta-data>
         </activity>
         <activity android:name=".ReportCrime">
             <meta-data

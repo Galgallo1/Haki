@@ -27,7 +27,8 @@ public class IncidenceReceived extends AppCompatActivity implements View.OnClick
     @Override
     public void onClick(View view) {
         if(view == mButton){
-            Intent intent = new Intent(MainActivity.this, )
+            Intent intent = new Intent(IncidenceReceived.this, Incidences.class);
+            startActivity(intent);
         }
     }
 }
