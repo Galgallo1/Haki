@@ -94,7 +94,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="161dp"
         android:layout_marginTop="541dp"
-        android:text="Submit" />
+        android:text="Submit"
+        android:textAppearance="@style/TextAppearance.AppCompat"/>
 
 
 </RelativeLayout>

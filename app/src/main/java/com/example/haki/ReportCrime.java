@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -32,6 +33,7 @@ public class ReportCrime extends AppCompatActivity implements View.OnClickListen
         if(view==mButton){
             Intent intent = new Intent(ReportCrime.this, IncidenceReceived.class);
             startActivity(intent);
+            Toast.makeText(ReportCrime.this, "Form submitted successfully", Toast.LENGTH_LONG).show();
         }
     }
 }
