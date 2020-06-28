@@ -10,7 +10,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="13dp"
+        android:layout_marginStart="13dp
         android:layout_marginTop="50dp"
         android:text="We have received your report and will move swiftly to respond, Thank you for reporting an incidence." />
 </RelativeLayout>
