@@ -29,7 +29,7 @@ public class ReportCrime extends AppCompatActivity implements View.OnClickListen
 
     @Override
     public void onClick(View view) {
-        if(view==mButton)
+        if(view==mButton){
             Intent intent = new Intent(ReportCrime.this, IncidenceReceived.class);
             startActivity(intent);
         }
