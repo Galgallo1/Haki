@@ -15,6 +15,6 @@ public class IncidenceReceived extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_incidence_received);
 
-        Intent intent = getIntent();
+        Intent intent = getIntent()
     }
 }
