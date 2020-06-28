@@ -16,7 +16,7 @@
 
             </meta-data>
         </activity>
-        <activity android:name=".ReportCrime">
+        <activity android:name=".ReportCrime"
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.haki.MainActivity">
