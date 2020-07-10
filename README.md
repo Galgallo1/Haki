@@ -22,6 +22,9 @@ This is application that allows civilians to report cases of police brutality co
 3. Run the app to be installed in your android device.
 4. See the functionalities of the app on your phone or emulator.
 
+## UI design link
+<a href="https://www.figma.com/file/dQX2Z9DgczXCUZ5rJTsBrX/Untitled?node-id=1%3A2">Click here to view</a>
+
 ### Contact
 Feel free to reach out to me at tadichgalgallo@gmail.com in case of any questions
 
